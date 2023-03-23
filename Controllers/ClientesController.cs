@@ -24,6 +24,7 @@ namespace Basic_Api.Controllers
             var filtroclientes = _clientes.Where(x => x.Nome == nome);
             return Ok(filtroclientes);
         }
+
         [HttpGet]
         [Route("{id}")]
         public string ObterClienteComId ([FromQuery]string nome, [FromRoute]int id){

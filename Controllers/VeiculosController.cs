@@ -27,7 +27,7 @@ namespace Basic_Api.Controllers
             carros.Add(carro);
             return Ok();
         }
-
+        [HttpDelete]
         public ActionResult DeleteCarros([FromQuery]string carro){
             carros.Remove(carro);
             return Ok();
