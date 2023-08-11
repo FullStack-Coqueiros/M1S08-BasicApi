@@ -5,6 +5,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>Basic_Api</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4ce9d0d3-3bd4-4847-8d9d-09fbea7a4964</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+  </ItemGroup>
 
 </Project>
